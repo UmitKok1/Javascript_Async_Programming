@@ -15,7 +15,7 @@ const res = (resource) => {
     });
   };
   
-  res('example/can.json')
+  res('example/A.json')
     .then((data) => {
       console.log(data);
     })
